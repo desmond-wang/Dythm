@@ -1,0 +1,32 @@
+package troid.dythm.game.item;
+
+import troid.dythm.game.play.Hit;
+import troid.dythm.game.play.HitJudgement;
+import troid.dythm.game.play.PlayState;
+
+public class GoodMiss implements Item {
+    private int count = 1;
+
+    @Override
+    public String getDescription() {
+        return "Change " + (count == 1 ? "1 miss" : count + " misses") + " to good";
+    }
+
+    @Override
+    public int getPrice() {
+        return 80 * count * count;
+    }
+
+    @Override
+    public GoodMiss copy() {
+        return new GoodMiss();
+    }
+
+    @Override
+    public void onHit(PlayState state, Hit hit) {
+        if (hit.getJudgement() == HitJudgement.MISS && count != 0) {
+            hit.setJudgement(HitJudgement.GOOD);
+            count--;
+        }
+    }
+}
