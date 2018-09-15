@@ -2,7 +2,7 @@
 An android musical rhythm game
 
 ## Google Play address:
-https://play.google.com/store/apps/details?id=troid.dythm&hl=en_US
+https://play.google.com/store/apps/details?id=troid.dythm
 
 ## Usage:
 We support osu mania beatmap for user to choice and play from ten thousands songs.
