@@ -6,6 +6,7 @@ https://play.google.com/store/apps/details?id=troid.dythm
 
 ## Demo Video
 [![Demo CountPages alpha](https://j.gifs.com/Jq45A9.gif)](https://youtu.be/wII9jbRYtAs)
+[![Demo CountPages alpha](https://j.gifs.com/kZnmAE.gif)](https://youtu.be/mgfCKeRFI-8)
 
 ## Usage:
 We support Osu mania beatmap for user to choice and play from ten thousands songs.
