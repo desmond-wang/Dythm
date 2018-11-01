@@ -5,7 +5,8 @@ An android musical rhythm game
 https://play.google.com/store/apps/details?id=troid.dythm
 
 ## Demo Video
-[![Demo CountPages alpha](https://j.gifs.com/Jq45A9.gif)](https://youtu.be/wII9jbRYtAs)
+
+[![Dythm](https://j.gifs.com/Jq45A9.gif)](https://youtu.be/wII9jbRYtAs)
 
 ## Usage:
 We support Osu mania beatmap for user to choice and play from ten thousands songs.
