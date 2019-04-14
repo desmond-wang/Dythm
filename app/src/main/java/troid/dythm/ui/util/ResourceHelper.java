@@ -75,7 +75,8 @@ public class ResourceHelper {
 
     public static void initializeAssets(AssetManager assetManager) {
         createDirectory("");
-        createDirectory("map/");
+//        createDirectory("map/");
+        copyAsset(assetManager, "map");
         createDirectory("save/");
 
         copyAsset(assetManager, "theme");

@@ -45,7 +45,7 @@ public class InfoPage extends Page {
         zhu = new Text("Hongjian (Daniel) Zhu", Text.Alignment.RIGHT);
         addElement(zhu);
 
-        copyright = new Text("Copyright © 2018 by Team Troid", Text.Alignment.CENTER);
+        copyright = new Text("Copyright © 2019 by Team Troid", Text.Alignment.CENTER);
         addElement(copyright);
 
         back = new Button("control/back");

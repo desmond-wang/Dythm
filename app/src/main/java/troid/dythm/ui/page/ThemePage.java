@@ -30,10 +30,9 @@ public class ThemePage extends Page {
         String cur = gameView.getGame().getProfile().getTheme();
 
         List<String> themes = new ArrayList<>();
-        File[] files = new File(ResourceHelper.getHome() + "/theme/").listFiles();
-        if (files != null)
-            for (File file : files)
-                themes.add(file.getName());
+        for (File file : new File(ResourceHelper.getHome() + "/theme/").listFiles()) {
+            themes.add(file.getName());
+        }
 
         background = new Image(ResourceHelper.getImagePath("bg/achievement"), Image.Scaling.FILL);
         addElement(background);
