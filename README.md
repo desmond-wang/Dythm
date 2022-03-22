@@ -29,7 +29,7 @@ storage/emulated/0/Dythm/map
 >Then you can move entire folder into "*storage/emulated/0/Dythm/map*"
 
 >Here is an example package you can try  
->https://mega.nz/#!OFEUGD5I!LAvKGluS8...cbI5g4hyRcmzcY/  
+>https://mega.nz/folder/7YkV1JAB#Zvgj9S0QSfgedTTCK2pGBg
 >please use it **at your own risk**, since the copyright issue.
 
 
